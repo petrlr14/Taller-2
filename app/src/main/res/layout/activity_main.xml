@@ -51,7 +51,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/configuracion"
+                android:text="@string/perfil"
                 android:textColor="@color/fontColor"
                 android:textSize="16sp"
                 android:layout_column="0"/>
@@ -80,7 +80,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/configuracion"
+                android:text="@string/favs"
                 android:textColor="@color/fontColor"
                 android:textSize="16sp"
                 android:layout_column="0"/>
@@ -104,7 +104,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/configuracion"
+                android:text="@string/ingresos"
                 android:textColor="@color/fontColor"
                 android:textSize="16sp"
                 android:layout_column="0"/>
@@ -133,7 +133,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/configuracion"
+            android:text="@string/presupuesto"
             android:textColor="@color/fontColor"
             android:textSize="16sp"
             android:layout_column="0"/>
@@ -156,7 +156,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/configuracion"
+            android:text="@string/egreso"
             android:textColor="@color/fontColor"
             android:textSize="16sp"
             android:layout_column="0"/>
