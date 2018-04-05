@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:columnCount="3"
-    android:rowCount="2"
+    app:columnCount="3"
+    app:rowCount="2"
     android:visibility="visible"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_columnWeight="1"
+        app:layout_columnWeight="1"
         android:layout_margin="8dp"
-        android:layout_rowWeight="1"
+        app:layout_rowWeight="1"
         android:background="@color/cell00"
         android:gravity="center"
         android:orientation="vertical">
@@ -35,9 +35,9 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_columnWeight="1"
+        app:layout_columnWeight="1"
         android:layout_margin="8dp"
-        android:layout_rowWeight="1"
+        app:layout_rowWeight="1"
         android:background="@color/cell01"
         android:gravity="center"
         android:orientation="vertical">
@@ -58,9 +58,9 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_columnWeight="1"
+        app:layout_columnWeight="1"
         android:layout_margin="8dp"
-        android:layout_rowWeight="1"
+        app:layout_rowWeight="1"
         android:background="@color/cell20"
         android:gravity="center"
         android:orientation="vertical">
@@ -81,9 +81,9 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_columnWeight="1"
+        app:layout_columnWeight="1"
         android:layout_margin="8dp"
-        android:layout_rowWeight="1"
+        app:layout_rowWeight="1"
         android:background="@color/cell10"
         android:gravity="center"
         android:orientation="vertical">
@@ -104,9 +104,9 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_columnWeight="1"
+        app:layout_columnWeight="1"
         android:layout_margin="8dp"
-        android:layout_rowWeight="1"
+        app:layout_rowWeight="1"
         android:background="@color/cell11"
         android:gravity="center"
         android:orientation="vertical">
@@ -127,9 +127,9 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_columnWeight="1"
+        app:layout_columnWeight="1"
         android:layout_margin="8dp"
-        android:layout_rowWeight="1"
+        app:layout_rowWeight="1"
         android:background="@color/cell21"
         android:gravity="center"
         android:orientation="vertical">
@@ -146,4 +146,4 @@
             android:textColor="@color/fontColor"
             android:textSize="16sp" />
     </LinearLayout>
-</GridLayout>
+</android.support.v7.widget.GridLayout>
