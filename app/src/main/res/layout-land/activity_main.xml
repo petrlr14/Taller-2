@@ -1,161 +1,149 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="10dp"
+    android:columnCount="3"
+    android:rowCount="2"
+    android:visibility="visible"
     tools:context=".MainActivity">
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_marginRight="4dp"
-            android:layout_marginBottom="4dp"
-            android:background="@color/cell00"
-            android:gravity="center">
 
-            <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:layout_column="0"
-                android:src="@drawable/settings"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/configuracion"
-                android:textColor="@color/fontColor"
-                android:textSize="16sp"
-                android:layout_column="0"/>
-        </LinearLayout>
-        <LinearLayout
-            android:background="@color/cell01"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_marginLeft="4dp"
-            android:layout_marginBottom="4dp"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:gravity="center">
-
-            <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:layout_column="0"
-                android:src="@drawable/settings"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/configuracion"
-                android:textColor="@color/fontColor"
-                android:textSize="16sp"
-                android:layout_column="0"/>
-        </LinearLayout>
-    </TableRow>
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
-        <LinearLayout
-            android:background="@color/cell10"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_marginRight="4dp"
-            android:layout_marginBottom="4dp"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:gravity="center">
-
-            <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:layout_column="0"
-                android:src="@drawable/settings"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/configuracion"
-                android:textColor="@color/fontColor"
-                android:textSize="16sp"
-                android:layout_column="0"/>
-        </LinearLayout>
-        <LinearLayout
-            android:background="@color/cell11"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_marginLeft="4dp"
-            android:layout_marginBottom="4dp"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:gravity="center">
-
-            <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:layout_column="0"
-                android:src="@drawable/settings"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/configuracion"
-                android:textColor="@color/fontColor"
-                android:textSize="16sp"
-                android:layout_column="0"/>
-        </LinearLayout>
-    </TableRow>
-
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
     <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:layout_rowWeight="1"
+        android:background="@color/cell00"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/settings" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/configuracion"
+            android:textColor="@color/fontColor"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:layout_rowWeight="1"
+        android:background="@color/cell01"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/profile" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/perfil"
+            android:textColor="@color/fontColor"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:layout_rowWeight="1"
         android:background="@color/cell20"
-        android:layout_width="0dp"
-        android:layout_weight="1"
-        android:layout_height="match_parent"
-        android:layout_marginRight="4dp"
-        android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center"
+        android:orientation="vertical">
 
         <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_column="0"
-            android:src="@drawable/settings"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/calculadora" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/configuracion"
+            android:text="@string/presupuesto"
             android:textColor="@color/fontColor"
-            android:textSize="16sp"
-            android:layout_column="0"/>
+            android:textSize="16sp" />
     </LinearLayout>
+
     <LinearLayout
-        android:background="@color/cell21"
         android:layout_width="0dp"
-        android:layout_weight="1"
-        android:layout_height="match_parent"
-        android:layout_marginLeft="4dp"
-        android:orientation="vertical"
-        android:gravity="center">
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:layout_rowWeight="1"
+        android:background="@color/cell10"
+        android:gravity="center"
+        android:orientation="vertical">
 
         <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_column="0"
-            android:src="@drawable/settings"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/folder" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/configuracion"
+            android:text="@string/favs"
             android:textColor="@color/fontColor"
-            android:textSize="16sp"
-            android:layout_column="0"/>
+            android:textSize="16sp" />
     </LinearLayout>
-</TableRow>
-</TableLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:layout_rowWeight="1"
+        android:background="@color/cell11"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bag" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ingresos"
+            android:textColor="@color/fontColor"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:layout_rowWeight="1"
+        android:background="@color/cell21"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/wallet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/egreso"
+            android:textColor="@color/fontColor"
+            android:textSize="16sp" />
+    </LinearLayout>
+</GridLayout>
