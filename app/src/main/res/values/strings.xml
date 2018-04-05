@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Taller_2</string>
+    <string name="configuracion">Settings</string>
+    <string name="perfil">Profile</string>
+    <string name="favs">Favorites</string>
+    <string name="ingresos">Ingress</string>
+    <string name="presupuesto">Budget</string>
+    <string name="egreso">Egress</string>
 </resources>
